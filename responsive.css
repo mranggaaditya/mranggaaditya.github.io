@@ -1,0 +1,65 @@
+@media (max-width: 1000px) {
+	.porto {
+		width: 40%;
+		margin-bottom: 50px;
+	}
+
+	.main h1 {
+  		opacity: 1;
+  		font-size: 45px;
+  		letter-spacing: 5px;
+ 		margin-bottom: 20px;
+  		text-align: center;
+	}
+
+	.heading h2 {
+		text-align: left;
+	}
+
+	.main p {
+  		opacity: 1;
+  		margin-bottom: 3px;
+  		text-align: center;
+  		font-size: 12px;
+	}
+
+	footer li {
+		padding-right: 90px;
+	}
+
+}
+
+@media (max-width: 670px)  {
+	.porto {
+		width: 100%;
+		margin-bottom: 100px;
+	}
+
+	.main h1 {
+  		opacity: 1;
+  		font-size: 35px;
+  		letter-spacing: 5px;
+ 		margin-bottom: 10px;
+  		text-align: left;
+	}
+
+	.main p {
+  		opacity: 1;
+  		margin-bottom: 3px;
+  		text-align: left;
+  		font-size: 10px;
+	}
+
+	.main {
+  		object-fit: cover;
+	}
+
+	.content h2{
+		text-align: center;
+	}
+
+	footer li {
+		padding-right: 10px;
+	}
+
+}

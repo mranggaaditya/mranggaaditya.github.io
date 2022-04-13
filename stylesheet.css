@@ -1,0 +1,161 @@
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+.container {
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.logo {
+  width: 70px;
+  margin-top: 15px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: rgba(34, 49, 52, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-left {
+  float: left;
+}
+
+li {
+  list-style: none;
+}
+
+.main {
+  padding: 180px 0 180px 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-align: center;
+  width: 100%;
+  animation: slide 40s infinite;
+}
+
+.main h1 {
+  opacity: 1;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.main p {
+  opacity: 1;
+  margin-bottom: 3px;
+}
+
+@keyframes slide {
+  0%{
+    background-image: url(gambar/background1.jpg);
+  }
+  20%{
+    background-image: url(gambar/background1.jpg);
+  }
+  20.01%{
+    background-image: url(gambar/background2.jpg);
+  }
+  40%{
+    background-image: url(gambar/background2.jpg);
+  }
+  40.01%{
+    background-image: url(gambar/background3.jpg);
+  }
+  60%{
+    background-image: url(gambar/background3.jpg);
+  }
+  60.01%{
+    background-image: url(gambar/background4.png);
+  }
+  80%{
+    background-image: url(gambar/background4.png);
+  }
+  80.01%{
+    background-image: url(gambar/background5.jpg);
+  }
+  100%{
+    background-image: url(gambar/background5.jpg);
+  }
+}
+
+.content {
+  height: 580px;
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+
+.porto {
+  float: left;
+  width: 20%;
+}
+
+.porto img {
+  border-radius: 20px;
+}
+
+.porto li {
+  font-size: normal;
+  padding-top: 2px;
+}
+
+.text-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 15px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+footer {
+  background-color: #2f5167;
+  color: #fff;
+  height: 120px;
+  padding: 40px;
+  clear: both;
+}
+
+footer img {
+  width: 65px;
+}
+
+footer p {
+  font-size: 12px;
+}
+
+.footer-logo {
+  font-size: 32px;
+  float: left;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
+}
+
+.footer-list {
+  float: right;
+}
+
+
+
